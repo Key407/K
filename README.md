@@ -49,7 +49,7 @@ plt.show()
 ```
 
 ### 功能描述
-1.参数定义：首先根据已知条件定义了公式中的参数 R_sun（太阳 - GC 距离）、A 、alpha 、b 、R_plt 。
+1.参数定义：首先根据已知条件定义了公式中的参数 R_sun、A 、alpha 、b 、R_plt 。
 2.目标函数定义：target_function 函数按照给定公式编写，用于计算给定 r 值处的函数值。
 3.提议分布与 M 值确定：
   a.选择均匀分布作为提议分布，通过 proposal_distribution 函数从下限 lower_bound 到上限 upper_bound 之间均匀采样。
